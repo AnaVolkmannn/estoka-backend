@@ -1,10 +1,10 @@
 spring:
   application:
     name: diorana
-  datasource:
-    url: ${DATABASE_URL}
-    username: ${DATABASE_USERNAME}
-    password: ${DATABASE_PASSWORD}
+  
+  profiles:
+    active: local
+    
   jpa:
     hibernate:
       ddl-auto: update
