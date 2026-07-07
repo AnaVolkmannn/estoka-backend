@@ -1,5 +1,5 @@
 # Usa uma imagem oficial do OpenJDK para rodar a aplicação
-FROM eclipse-temurin:21-jre-jammy
+FROM eclipse-temurin:17-jre-jammy
 
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
