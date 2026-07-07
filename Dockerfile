@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copia o arquivo .jar gerado na sua etapa de build para o container
 # Substitua "seu-projeto.jar" pelo nome real do jar gerado na pasta target/ ou build/
-COPY target/seu-projeto.jar app.jar
+COPY target/estoka-backend-0.0.1-SNAPSHOT.jar app.jar
 
 # Expõe a porta que sua aplicação utiliza (o Render atribui automaticamente à variável $PORT)
 EXPOSE 8082
